@@ -4,39 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to bottom, #f4e7da, #c4d7f2);
+        animation: gradientAnimation 10s infinite alternate;
+      }
+
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        animation: shadowAnimation 5s infinite alternate;
+      }
+
+      @keyframes shadowAnimation {
+        0% {
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        100% {
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      h1,
+      h2 {
+        color: #5e4e42;
+        text-align: center;
+      }
+
+      p {
+        color: #7f7f7f;
+        line-height: 1.6;
+      }
+
+      img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        border: 4px solid #ccc;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      img:hover {
+        transform: scale(1.05);
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      ol,
+      ul {
+        margin-left: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
-    <h1>артем хайповый с днем рождения</h1>
-    <p>
-      хочу рассказать о тебе..ты собственно фурри и тебе нравиться им быть так
-      как тебе нравиться животные
-    </p>
-    <p>
-      <span>
-        ты один из самых адеватных людей мира=
-        <a
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
-          >халявные бабки</a
-        ></span
-      >
-    </p>
-    <p>za россию ты артем топовый сво топчик рил базарю</p>
-    <h2>
-      едем на рыбалку и мы бухаем пиво ни одной вумен с нами они пугают рыбу
-    </h2>
-    <ol>
-      <li>я отвечаю ты топ</li>
-      <li>кабан поздравляет тебя</li>
-      <li>мейкер и диджей и лайкер</li>
-      <li>иютубер и топовый подросток</li>
-    </ol>
-    <h2>бойся кабана</h2>
-    <p>идешь по лесу видишь кабана убегай быстро</p>
-    <p>
-      артем с днем рождения чтобы ты был всегда таким же хайповым и крутым
-      подростком
-    </p>
-    <p>ты рил хайповый</p>
-    <h2>я тя лю</h2>
+    <div class="container">
+      <h1>артем хайповый с днем рождения</h1>
+      <img src="./2024-04-14 22.48.39.jpg" width="200px" alt="" />
+      <p>
+        хочу рассказать о тебе..ты собственно фурри и тебе нравиться им быть так
+        как тебе нравиться животные
+      </p>
+      <p>
+        <span>
+          ты один из самых адеватных людей мира=
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            >халявные бабки</a
+          ></span
+        >
+      </p>
+      <p>za россию ты артем топовый сво топчик рил базарю</p>
+      <h2>
+        едем на рыбалку и мы бухаем пиво ни одной вумен с нами они пугают рыбу
+      </h2>
+      <ol>
+        <li>я отвечаю ты топ</li>
+        <li>кабан поздравляет тебя</li>
+        <li>мейкер и диджей и лайкер</li>
+        <li>иютубер и топовый подросток</li>
+      </ol>
+      <h2>бойся кабана</h2>
+      <p>идешь по лесу видишь кабана убегай быстро</p>
+      <p>
+        артем с днем рождения чтобы ты был всегда таким же хайповым и крутым
+        подростком
+      </p>
+      <p>ты рил хайповый</p>
+      <h2>я тя лю</h2>
+      <img src="./2024-04-14 22.48.28.jpg" width="200px" />
+    </div>
   </body>
 </html>
